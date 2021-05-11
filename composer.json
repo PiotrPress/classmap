@@ -1,0 +1,27 @@
+{
+  "name": "piotrpress/classmap",
+  "type": "library",
+  "license": "GPL-3.0",
+  "description": "This library generates classmap for autoload.",
+  "homepage": "https://PiotrPress",
+  "authors": [
+    {
+      "name": "Piotr Niewiadomski",
+      "homepage": "https://github.com/PiotrPress"
+    }
+  ],
+  "keywords": [
+    "classmap", "class map", "autoload", "autoloader"
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "PiotrPress\\": "src/"
+    },
+    "classmap": [
+      "src"
+    ]
+  }
+}
